@@ -285,7 +285,7 @@ default_t	defaults[] =
 
     {"usegamma",&usegamma, 0},
 
-    {"chatmacro0", (int *) &chat_macros[0], (int) HUSTR_CHATMACRO0 },
+    {"chatmacro0", (int *) &chat_macros[0], (int) "hello" },
     {"chatmacro1", (int *) &chat_macros[1], (int) HUSTR_CHATMACRO1 },
     {"chatmacro2", (int *) &chat_macros[2], (int) HUSTR_CHATMACRO2 },
     {"chatmacro3", (int *) &chat_macros[3], (int) HUSTR_CHATMACRO3 },
